@@ -51,7 +51,10 @@ nav a:hover{
 .texto{
     margin: 30px;
 }
-
+.texto p {
+    text-align: justify;
+    margin: 30px;
+}
 
 
 footer {
@@ -183,7 +186,7 @@ button:hover {
 #resultadoFiltro div {
     background-color: #d6d4d086;
     padding: 15px;
-    margin: auto;
+    margin: 20px auto;
     border-radius: 50px;
     text-align: justify;
     width: 90%;
