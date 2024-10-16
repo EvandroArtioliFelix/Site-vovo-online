@@ -67,8 +67,6 @@ footer {
     /* width: 100vw; */
 }
 
-
-
 /* IMAGENS */
 ul.galeria{
     width: 932px;
@@ -136,6 +134,39 @@ ul.galeria li#foto03{
     background-color: white;
 }
 ul.galeria li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto04{
+    background: url(assets/batata-doce-crocante-com-aioli.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto05{
+    background: url(assets/mousse-de-chocolate-vegano.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto06{
+    background: url(assets/sablee-de-pistache-com-creme-mascarpone-e-frutas-vermelhas.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto06:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
