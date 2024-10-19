@@ -224,6 +224,56 @@ button:hover {
 }
 
 
+/* Estilos da página de contato */
+.contato {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.informacoes-contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.informacoes-contato ul li {
+    margin-bottom: 10px;
+}
+
+.informacoes-contato a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contato label {
+    margin-bottom: 5px;
+}
+
+.formulario-contato input, .formulario-contato textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contato button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #2980b9;
+}
+
 
 
 
