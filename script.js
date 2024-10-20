@@ -62,7 +62,7 @@ let pratos = [
         <li>Adicione a farinha aos poucos e mexa com uma espátula. Acrescente fermento devagar.</li>
         <li>Espalhe a massa em uma forma untada e asse por 40 minutos ou até dourar.</li>
     </ol>`),
-    
+
     new Prato("Frango Agridoce com Abobrinha e Parmesão", "salgado", `
     <h4>Ingredientes do Frango:</h4>
     <ul>
@@ -83,7 +83,7 @@ let pratos = [
         <li>Asse na brasa, pincelando com a mistura de manteiga e caldo restante.</li>
         <li>Grelhe abobrinhas com azeite e alho em pó, finalize com parmesão.</li>
     </ol>`),
-    
+
     new Prato("Peixe com Limão e Alcaparras", "salgado", `
     <h4>Ingredientes:</h4>
     <ul>
@@ -193,8 +193,202 @@ let pratos = [
             <li>Após a massa esfriar, espalhe o creme mascarpone sobre a base de sablée.</li>
             <li>Decore com frutas vermelhas ou frutas frescas a gosto e finalize com doce de leite cremoso.</li>
         </ol>
-    `)
+    `),
+    new Prato("Mousse de Maracujá", "doce", `
+        <h4>Ingredientes:</h4>
+        <ul>
+            <li>2 xícaras de concentrado de maracujá</li>
+            <li>1 lata ou 395 gramas de leite condensado</li>
+            <li>1 lata ou 300 gramas de creme de leite</li>
+            <li>1 colher de sopa de gelatina em pó sem sabor</li>
+            <li>50 mililitros de água morna</li>
+        </ul>
+        
+        <h4>Modo de Preparo:</h4>
+        <ol>
+            <li>No liquidificador, acrescente 2 xícaras de concentrado de maracujá, 1 lata de leite condensado e 1 caixinha de creme de leite. Bata até ficar homogêneo.</li>
+            <li>Em uma tigela, coloque 1 colher de sopa de gelatina em pó e dissolva em 50 mililitros de água morna. Em seguida, adicione a gelatina na mistura do liquidificador e bata por alguns segundos.</li>
+            <li>Transfira a mistura para um refratário e decore com sementes de maracujá. Leve à geladeira por 4 horas antes de servir.</li>
+        </ol>
+    `),
+    new Prato("Arroz Frito com Lombo e Teriyaki", "salgado", `
+        <h4>Ingredientes:</h4>
+        <ul>
+            <li>320 gramas de arroz cozido</li>
+            <li>64 gramas de cenoura em cubinhos</li>
+            <li>4 gramas de alho picado</li>
+            <li>40 gramas de cebola picada</li>
+            <li>2 ovos</li>
+            <li>80 gramas de brócolis em pedaços</li>
+            <li>60 gramas de acelga fatiada</li>
+            <li>20 gramas de salsão picado</li>
+            <li>20 gramas de manteiga</li>
+            <li>30 mililitros de shoyu</li>
+            <li>6 gramas de cebolinha picada</li>
+            <li>2 colheres de chá de gergelim</li>
+            <li>200 gramas de lombo</li>
+            <li>60 gramas de farinha panko</li>
+            <li>40 mililitros de molho teriyaki</li>
+            <li>20 gramas de maionese</li>
+        </ul>
+        
+        <h4>Modo de Preparo:</h4>
+        <ol>
+            <li>Refogue a cebola, o alho e a cenoura na manteiga.</li>
+            <li>Adicione os ovos mexidos, seguido do brócolis, acelga e salsão, refogando por mais alguns minutos.</li>
+            <li>Misture o arroz cozido e tempere com shoyu.</li>
+            <li>Frite o lombo empanado até dourar. Sirva sobre o arroz, finalize com cebolinha, gergelim, molho teriyaki e maionese.</li>
+        </ol>
+    `),
+
+    new Prato("Bolo de Cenoura Vulcão", "doce", `
+    <h4>Ingredientes - Bolo de Cenoura:</h4>
+    <ul>
+        <li>2 cenouras grandes picadas (300 g)</li>
+        <li>1/2 xícara (chá) de óleo (120 ml)</li>
+        <li>3 ovos</li>
+        <li>1 e 1/2 xícara (chá) de açúcar</li>
+        <li>2 xícaras (chá) de farinha de trigo com fermento</li>
+    </ul>
+
+    <h4>Ingredientes - Calda:</h4>
+    <ul>
+        <li>1 lata de leite condensado</li>
+        <li>1 e 1/4 de xícara (chá) de leite (300 ml)</li>
+        <li>1/2 xícara (chá) de achocolatado ou chocolate em pó</li>
+        <li>2 colheres (sopa) de manteiga</li>
+    </ul>
     
+    <h4>Modo de Preparo - Bolo de Cenoura:</h4>
+    <ol>
+        <li>Bata a cenoura com o óleo, o açúcar e os ovos no liquidificador até triturar e misturar bem.</li>
+        <li>Transfira para uma tigela e incorpore a farinha aos poucos e delicadamente.</li>
+        <li>Despeje em fôrma de cone central (25 cm de diâmetro) untada e enfarinhada.</li>
+        <li>Leve ao forno médio preaquecido (180 ºC) por cerca de 40 minutos ou até dourar.</li>
+        <li>Desenforme morno e preencha o centro com a calda, deixando escorrer pela lateral.</li>
+        <li>Sirva em seguida para cortar e obter o efeito de bolo vulcão.</li>
+    </ol>
+`),
+
+    new Prato("Bolo de Cenoura Vulcão", "doce", `
+    <h4>Ingredientes - Bolo de Cenoura:</h4>
+    <ul>
+        <li>2 cenouras grandes picadas (300 g)</li>
+        <li>1/2 xícara (chá) de óleo (120 ml)</li>
+        <li>3 ovos</li>
+        <li>1 e 1/2 xícara (chá) de açúcar</li>
+        <li>2 xícaras (chá) de farinha de trigo com fermento</li>
+    </ul>
+
+    <h4>Ingredientes - Calda:</h4>
+    <ul>
+        <li>1 lata de leite condensado</li>
+        <li>1 e 1/4 de xícara (chá) de leite (300 ml)</li>
+        <li>1/2 xícara (chá) de achocolatado ou chocolate em pó</li>
+        <li>2 colheres (sopa) de manteiga</li>
+    </ul>
+    
+    <h4>Modo de Preparo - Bolo de Cenoura:</h4>
+    <ol>
+        <li>Bata a cenoura com o óleo, o açúcar e os ovos no liquidificador até triturar e misturar bem.</li>
+        <li>Transfira para uma tigela e incorpore a farinha aos poucos e delicadamente.</li>
+        <li>Despeje em fôrma de cone central (25 cm de diâmetro) untada e enfarinhada.</li>
+        <li>Leve ao forno médio preaquecido (180 ºC) por cerca de 40 minutos ou até dourar.</li>
+        <li>Desenforme morno e preencha o centro com a calda, deixando escorrer pela lateral.</li>
+        <li>Sirva em seguida para cortar e obter o efeito de bolo vulcão.</li>
+    </ol>
+`),
+
+new Prato("Medalhão na Brasa com Molho de Mostarda", "salgado", `
+    <h4>Ingredientes:</h4>
+    <ul>
+        <li>300 gramas de carne</li>
+        <li>2 colheres de sopa de cebola picada</li>
+        <li>1 colher de sopa de azeite extravirgem</li>
+        <li>8 alcaparras</li>
+        <li>1 ramo de tomilho</li>
+        <li>1 colher de sopa de vinho tinto</li>
+        <li>1 colher de sopa de vinagre suave</li>
+        <li>2 colheres de sopa de mostarda Dijon</li>
+        <li>1 colher de chá de molho inglês</li>
+        <li>150 mililitros de creme de leite fresco</li>
+        <li>1 colher de sopa de manteiga gelada</li>
+        <li>Sal de parrilha a gosto</li>
+    </ul>
+
+    <h4>Modo de Preparo:</h4>
+    <ol>
+        <li>Coloque a carne na churrasqueira e salgue com sal de parrilha a gosto.</li>
+        <li>Asse até o ponto de sua preferência.</li>
+        <li>Refogue a cebola e as alcaparras.</li>
+        <li>Em fogo baixo, acrescente os outros ingredientes, exceto a manteiga, e deixe cozinhar por três minutos.</li>
+        <li>Acrescente a manteiga gelada, retire o ramo de tomilho e passe num mixer.</li>
+        <li>Seu medalhão na brasa com molho está pronto para ser servido. Bom apetite!</li>
+    </ol>
+`),
+
+new Prato("Robata de Salmão com Brócolis", "salgado", `
+    <h4>Ingredientes:</h4>
+    <ul>
+        <li>400 gramas de salmão em cubos</li>
+        <li>250 gramas de brócolis</li>
+        <li>1 colher de chá de sal</li>
+        <li>40 gramas de alho frito</li>
+        <li>100 gramas de maionese</li>
+        <li>Suco de 1 limão</li>
+        <li>30 gramas de molho sriracha</li>
+    </ul>
+
+    <h4>Modo de Preparo:</h4>
+    <ol>
+        <li>Coloque o brócolis rapidamente em água fervente por 1 a 2 minutos e depois resfrie em água ambiente.</li>
+        <li>Em uma tigela, tempere os cubos de salmão com sal a gosto. Deixe marinar por cerca de 15 a 20 minutos para absorver o tempero.</li>
+        <li>Em espetos, intercale os cubos de salmão com os floretes de brócolis.</li>
+        <li>Coloque os espetos na frigideira pré-aquecida com azeite e cozinhe por cerca de 2 a 3 minutos de cada lado, ou até que o salmão esteja cozido e os brócolis estejam ligeiramente grelhados.</li>
+        <li>Em um bowl, misture a maionese, suco do limão e duas colheres de molho sriracha.</li>
+        <li>Retire os espetos da frigideira e transfira para um prato.</li>
+        <li>Finalize com alho frito por cima e sirva a robata de salmão com brócolis acompanhada pelo molho. Bom apetite!</li>
+    </ol>
+`),
+
+new Prato("Balinhas de Manga, Morango e Uva Verde", "doce", `
+    <h4>Ingredientes - Balinha de Manga:</h4>
+    <ul>
+        <li>1/4 de xícara de chá (60 ml) de polpa de manga</li>
+        <li>3 colheres de sopa de suco de laranja</li>
+        <li>30 gramas de cenoura cozida</li>
+        <li>2 colheres de sopa de mel</li>
+        <li>1 sachê de gelatina em pó incolor (hidratada conforme instruções do fabricante)</li>
+    </ul>
+
+    <h4>Ingredientes - Balinha de Morango:</h4>
+    <ul>
+        <li>1/4 de xícara de chá (60 ml) de polpa de morango</li>
+        <li>3 colheres de sopa de suco de maçã</li>
+        <li>30 gramas de beterraba cozida</li>
+        <li>2 colheres de sopa de mel</li>
+        <li>1 sachê de gelatina em pó incolor (hidratada conforme instruções do fabricante)</li>
+    </ul>
+
+    <h4>Ingredientes - Balinha de Uva Verde:</h4>
+    <ul>
+        <li>1/4 de xícara de chá (60 ml) de polpa de uva verde peneirada</li>
+        <li>3 colheres de sopa de suco de limão</li>
+        <li>10 gramas de folhas de espinafre</li>
+        <li>2 colheres de sopa de mel</li>
+        <li>1 sachê de gelatina em pó incolor (hidratada conforme instruções do fabricante)</li>
+    </ul>
+
+    <h4>Modo de Preparo - Balinhas:</h4>
+    <ol>
+        <li>Bata todos os ingredientes no liquidificador até obter uma mistura homogênea.</li>
+        <li>Aqueça levemente a mistura em fogo baixo para dissolver a gelatina, sem deixar ferver.</li>
+        <li>Despeje em forminhas de silicone ou formas para balinhas.</li>
+        <li>Leve à geladeira por pelo menos 2 horas, ou até as balinhas firmarem.</li>
+        <li>Desenforme e sirva suas balinhas de manga, morango ou uva verde. Bom apetite!</li>
+    </ol>
+`)
+
 ];
 
 // Adicionando ingredientes aos pratos

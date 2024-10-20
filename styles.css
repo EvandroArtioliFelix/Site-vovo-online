@@ -70,11 +70,12 @@ footer {
 /* IMAGENS */
 ul.galeria{
     width: 932px;
-    height: 800px;
+    height: 1500px;
     margin: 0 auto;
     overflow: hidden;
     list-style: none;
     columns: 3;
+    /*border: 1px solid red;*/
 }
 ul.galeria li{
     float: left;
@@ -170,6 +171,75 @@ ul.galeria li#foto06:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+
+ul.galeria li#foto07{
+    background: url(assets/bala-de-fruta-saudavel.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto07:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto08{
+    background: url(assets/bolo-de-cenoura-com-calda-de-chocolate.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto08:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto09{
+    background: url(assets/medalhao-na-brasa-com-molho.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto09:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto10{
+    background: url(assets/mousse-de-maracuja.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto11{
+    background: url(assets/robata-de-salmao-com-brocolis.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto11:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto12{
+    background: url(assets/selma-arroz-frito.jpg);
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: white;
+}
+ul.galeria li#foto12:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+
 
 
 
